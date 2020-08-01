@@ -29,4 +29,5 @@ class Author
         post_count[post] = 1
       end
     end
-    
+    post_count
+  end
