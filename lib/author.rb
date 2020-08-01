@@ -4,7 +4,7 @@ class Author
   
   def initialize(name)
     @name = name
-    @posts = posts
+    @posts = []
   end
   
   def posts
@@ -21,7 +21,7 @@ class Author
   end
   
   def self.post_count
-    self.all.size
+    @@post_count.size
     end
     
 end
