@@ -31,3 +31,5 @@ class Author
     end
     post_count
   end
+  
+end
