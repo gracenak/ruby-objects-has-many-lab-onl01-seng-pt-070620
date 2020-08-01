@@ -24,6 +24,7 @@ class Author
     @@all.each do |post|
       puts post.count
     end
-    
   end
+    
+end
    
