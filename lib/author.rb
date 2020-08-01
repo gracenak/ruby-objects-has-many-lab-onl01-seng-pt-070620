@@ -21,15 +21,9 @@ class Author
   end
   
   def self.post_count
-    post_count = {}
     @@all.each do |post|
-      if post_count[post]
-        post_count[post] += 1
-      else
-        post_count[post] = 1
-      end
+      puts post.count
     end
-    post_count
+    
   end
-  
-end
+   
