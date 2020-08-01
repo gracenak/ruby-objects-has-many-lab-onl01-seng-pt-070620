@@ -3,7 +3,7 @@ class Artist
   
   attr_accessor :name
   
-  @@song
+  @@song_count = 0
   
   
   def initialize(name)
@@ -26,9 +26,7 @@ class Artist
   end
   
   def self.song_count
-    #binding.pry
-    Song.all.collect {|song|}
-    @@all << song.count
+    @@soung_count
   end
     
     
