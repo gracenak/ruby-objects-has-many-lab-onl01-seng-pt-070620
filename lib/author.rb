@@ -19,6 +19,10 @@ class Author
     post = post.new(title)
     add_post(post)
   end
+  
+  def self.post_count
+end
+
     
   
   
